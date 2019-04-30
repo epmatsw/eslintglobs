@@ -1,0 +1,11 @@
+{
+    "overrides": [{
+      "files": ["**/a.js"],
+      "rules": {
+        "no-var": 0
+      }
+    }],
+    "rules": {
+      "no-var": 2
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "eslintglobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --config sib/.eslintrc.json --ignore-path sib/.eslintignore .",
+    "control": "eslint --ignore-path sib/.eslintignore ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
+}
